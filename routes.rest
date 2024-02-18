@@ -1,0 +1,13 @@
+GET http://localhost:5000/api/v1/products
+
+###
+
+POST http://localhost:5000/api/v1/products
+Content-Type : application/json
+
+{
+ "name" : "Burger",
+ "quantity" : 50,
+ "price" : 3.99,
+ "image" : "burger.jpg",
+}
